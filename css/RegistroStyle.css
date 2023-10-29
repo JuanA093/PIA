@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    background-color: #008080;
+    box-sizing: border-box;     
+    font-family: 'Work Sans';
+}
+
+#registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-registro{
+    margin-top: 20px;
+}
+
+.form{
+    display: flex; /* Utiliza flexbox para alinear etiquetas y campos de entrada */
+    align-items: center; /* Centra verticalmente los elementos en cada campo */
+    margin-bottom: 15px; /* Espacio entre campos */
+}
+
+label{
+    width: 120px; /* Ancho fijo para las etiquetas */
+    margin-right: 0px; /* Espacio entre etiquetas y campos de entrada */
+}
+
+input{
+    flex: 1; /* El campo de entrada ocupa el espacio restante */
+    padding: 0px;
+}
+
+
